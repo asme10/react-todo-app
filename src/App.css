@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(
+    to right top,
+    #802d5e,
+    #742f66,
+    #66316d,
+    #543472,
+    #403775,
+    #383873,
+    #303970,
+    #293a6d,
+    #303a68,
+    #353a62,
+    #393b5d,
+    #3c3b58
+  );
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  color: #fff;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px solid #ccc;
+}
+.header h1 {
+  text-transform: uppercase;
+}
+.card {
+  width: 50%;
+  padding: 20px 10px 10px 10px;
+}
+.list-group {
+  list-style: none;
+  border-top: 0 !important;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #fff;
+}
